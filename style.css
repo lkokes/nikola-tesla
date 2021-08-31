@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(151, 178, 206);
+  line-height: 20px;
+  margin: 40px;
+  text-align: center;
+}
+
+p,
+li {
+  color: rgb(8, 5, 48);
+}
+
+li {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: "Rampart One", cursive;
+  text-shadow: 5px 5px 5px rgb(194, 224, 228);
+  font-size: 3em;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  text-align: center;
+  border: black 1px solid;
+}
+
+#inventions {
+  text-align: left;
+}
+div {
+  margin-top: 42px;
+}
+
+/*image and blockquote*/
+img {
+  border-radius: 50%;
+  border: rgb(138, 75, 12) solid 3px;
+  float: right;
+  height: 200px;
+  margin-right: 30px;
+}
+
+blockquote {
+  color: navy;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Playfair Display", Georgia, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
