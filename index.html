@@ -26,11 +26,11 @@
                     Predpovedal napríklad smartfóny, internet, wi-fi, drony či lietajúce automobily.</p>
                 </div>
         </section> 
-        <section id="inventions">
+        <section id="his-inventions">
             <div>
                 <p> <strong> Jeho objavy a vynálezy: </strong></p>
                 <ul>
-                    <li > <button onclick="ShowAndHide()"> Teslov transformátor </button>
+                    <li > <button class="btn"  onclick="showAndHide('invention1')"> Teslov transformátor </button>
                         <p  id="invention1" style="display:none">Tesla skonštruoval svoj transformátor v roku 1891. Zariadenie pozostávalo z dvoch samostatných cievok, 
                             primárnej a sekundárnej, pričom každá mala svoj vlastný kondenzátor. Kondenzátory slúžia ako úložisko 
                             energie a cievky generujú iskry a elektrické výboje. Tesla toto zariadenie vyvinul, pretože bol 
@@ -38,8 +38,8 @@
                         </p>
                     </li> 
                         
-                    <li>Teslov oscilátor
-                        <p>
+                    <li><button class="btn"  onclick="showAndHide('invention2')">Teslov oscilátor</button>
+                        <p id="invention2" style="display:none">
                             V roku 1898 Nikola Tesla oficiálne oznámil, že vyvinul a zostrojil malé oscilačné zariadenie. Keď toto zariadenie 
                             umiestnil vo svojej pracovni a uviedol ho do chodu, nechýbalo veľa, aby sa zrútila celá budova aj s okolitými objektami.
                             Inými slovami, toto zariadenie údajne dokázalo simulovať zemetrasenia. Keď si uvedomil, na akú skazu by mohol byť tento oscilátor 
@@ -47,21 +47,20 @@
                         </p>
                     </li>
                         
-                    <li>Teslova turbína
-                        <p> Na začiatku 20.storočia zažíval piestový motor v automobiloch svoj obrovský rozmach. V snahe konkurovať týmto 
+                    <li><button class="btn"  onclick="showAndHide('invention3')">Teslova turbína</button>
+                        <p id="invention3" style="display:none"> Na začiatku 20.storočia zažíval piestový motor v automobiloch svoj obrovský rozmach. V snahe konkurovať týmto 
                             motorom vyvinul Tesla svoju vlastnú turbínu. Išlo o bezlopatkovú turbínu založenú na princípe trenia medzi prúdiacim 
                             palivom (voda, para) a povrchom rotoru turbíny. Keď vynález v roku 1909 testovali, výsledky boli ohromujúce. 
                             Až 60% efektivita. Avšak kvôli svetovému obchodu s ropou a plynom sa svet uberal smerom piestových motorov.
                         </p>
                     </li>
                         
-                    <li>Rádio
-                        <p>Už v roku 1895 plánoval Tesla vysielať prvý rádiový prenos na vzdialenosť viac ako 80 kilometrov. 
+                    <li><button class="btn"  onclick="showAndHide('invention4')">Rádio</button>
+                        <p id="invention4" style="display:none">Už v roku 1895 plánoval Tesla vysielať prvý rádiový prenos na vzdialenosť viac ako 80 kilometrov. 
                             V rovnakom období sa v Anglicku venoval bezdrôtovému prenosu aj taliansky vedec Guglielmo Marconi. 
                             Zariadenia oboch sa od seba líšili najmä tým, že Teslov prístroj, ktorý získal patent v roku 1900, 
                             dokázal prenášať informácie na oveľa väčšie vzdialenosti.
-                        </p>
-                        <p>
+                            <br>
                             O štyri roky neskôr, v čase, keď Marconi začal spolupracovať s Edisonom, patentový úrad bez udania dôvodov svoje rozhodnutie 
                             prehodnotil a Marconimu patentové práva predsa len udelil. Odvtedy sa Guglielmo Marconi považoval za vynálezcu rádia. 
                             Samozrejme, Tesla sa s nespravodlivosťou rozhodol bojovať a Marconi Corporation zažaloval. Kauza s právami sa v prospech Teslu 
@@ -70,16 +69,16 @@
                     </li>
                         
                         
-                    <li>Neónové lampy
-                        <p>
+                    <li><button class="btn"  onclick="showAndHide('invention5')">Neónové lampy</button>
+                        <p id="invention5" style="display:none">
                             Tesla skúmal štyri rôzne typy osvetlenia. Experimentoval s pohybujúcimi sa elektrickými časticami v plynoch. 
                             Pre predstavu: podarilo sa mu zmeniť čierne svetlo na viditeľné spektrum pomocou fosforeskujúcej látky, ktorú si aj sám vytvoril. 
                             Taktiež ako prvý prišiel s nápadom na svetelné reklamy.
                         </p>
                     </li>
                         
-                    <li>Röntgenové žiarenie
-                        <p>
+                    <li><button class="btn"  onclick="showAndHide('invention6')">Röntgenové žiarenie</button>
+                        <p id="invention6" style="display:none">
                             Aj keď sa objav röntgenových lúčov od roku 1895 pripisuje nemeckému fyzikovi Willhelmovi Röntgenovi, 
                             lúče X ešte dávno pred ním pozoroval aj Nikola Tesla. Dôvodom, prečo sa objav X lúčov nespája s menom 
                             srbského vynálezcu, je požiar Teslovho laboratória v New Yorku. Kvôli nemu prišiel Nikola Tesla 13. marca 1895 
@@ -87,42 +86,40 @@
                         </p>
                     </li>
                         
-                    <li>Wardenclyffe Tower
-                        <p>V roku 1900 sa Tesla následne presťahoval na Long Island (NY), kde začal pripravovať svoj „veľký projekt“. 
+                    <li><button class="btn"  onclick="showAndHide('invention7')">Wardenclyffe Tower</button>
+                        <p id="invention7" style="display:none">V roku 1900 sa Tesla následne presťahoval na Long Island (NY), kde začal pripravovať svoj „veľký projekt“. 
                             Podarilo sa mu presvedčiť bohatého podnikateľa a bankára J.P. Morgana, aby mu poskytol 150 000 dolárov na stavbu rádiovej stanice. 
                             Peniaze však použil na výstavbu obrieho bezdrôtového vysielača, ktorý nazval Wardenclyffe Tower. Dnes je známy aj ako Tesla Tower. 
                             Vysielač siahal do výšky 57 metrov nad zemou a ďalších 37 metrov siahalo pod zemský povrch.
-                        </p>
-                        <p>
+                            <br>
                             Wardenclyffe Tower mala byť jednou z mnohých veží jeho plánovaného systému prijímacích staníc. Tie chcel rozmiestniť po celej Zemi s tým, 
                             že by pomocou nich bezdrôtovo a bezplatne distribuoval elektrinu pre všetkých ľudí na svete. Keď sa však o tomto Teslovom pláne dozvedel J.P. Morgan, 
                             okamžite stopol financovanie.  Kvôli nedostatku finančných prostriedkom bol Nikola Tesla nútený projekt v roku 1908 ukončiť. 
                             V roku 1917 bol vysielač Wardenclyffe Tower zbúraný.
                         </p>
                     </li>
-                    <li>Elektráreň na Niagarských vodopádoch
-                        <p>
+                    <li><button class="btn"  onclick="showAndHide('invention8')">Elektráreň na Niagarských vodopádoch</button>
+                        <p id="invention8" style="display:none">
                             Myšlienka využiť prúd vody pri Niagarských vodopádoch na výrobu elektrickej energie vznikol koncom 19.storočia. 
                             Spočiatku sa zvažoval jednosmerný prúd Thomasa Edisona, ale nakoniec bol použitý Teslov striedavý, ktorý 
                             ponúkala spoločnosť Westinghouse electric.
-                        </p>
-                        <p>
+                            <br>
                             Keď sa však 16. novembra 1896 spustili elektrárne na vodopádoch, začala elektráreň zásobovať Buffalo aj New York. 
                             Neskôr bolo dostavaných ďalších 10 generátorov a elektráreň bola na prelome 20. storočia  považovaná za revolučný projekt v odbore energetiky.
                         </p>
                     </li>
                         
-                    <li>Striedavý prúd
-                        <p> Vrcholom Teslovej činnosti bolo presadiť využívanie striedavého elektrického prúdu. Ten je dnes štandardom elektrickej energie na celom svete. 
+                    <li><button class="btn"  onclick="showAndHide('invention9')">Striedavý prúd</button>
+                        <p id="invention9" style="display:none"> Vrcholom Teslovej činnosti bolo presadiť využívanie striedavého elektrického prúdu. Ten je dnes štandardom elektrickej energie na celom svete. 
                             Kvôli svojim zámerom sa Nikola Tesla dostal do konfliktu záujmov s Edisonom, ktorý uprednostňoval využívanie jednosmerného prúdu.
-                        </p>
-                        <p> Aj keď sa bohatý Edison snažil očierniť Teslov koncept rôznymi spôsobmi a bol rozhodnutý udržať si svoje monopolné postavenie, vojnu prúdov napokon 
+                            <br>
+                            Aj keď sa bohatý Edison snažil očierniť Teslov koncept rôznymi spôsobmi a bol rozhodnutý udržať si svoje monopolné postavenie, vojnu prúdov napokon 
                             predsa len vyhral génius z Európy. Jeho nápad bol oveľa efektívnejší, pretože striedavý prúd možno bez strát šíriť aj na veľkú vzdialenosť.
                         </p>
                     </li>
                         
-                    <li>Asynchrónny motor na striedavý prúd
-                        <p>
+                    <li><button class="btn"  onclick="showAndHide('invention10')">Asynchrónny motor na striedavý prúd</button>
+                        <p id="invention10" style="display:none">
                             Asynchrónny motor alebo aj indukčný motor, je najpoužívanejší pohon v elektrotechnike. Ide o druh elektromotora pracujúceho na striedavý prúd, 
                             ktorý sa skladá z dvoch častí, a to stator a rotor. Na indukčnom motore pracovali nezávisle dvaja muži, Nikola Tesla a Galileo Ferrari. 
                             Obaja mali rovnaké myšlienky, ale Tesla svoj patent dokončil ako prvý. Výhodou tohto motoru je vysoká spoľahlivosť a dnes už pomerne jednoduchá konštrukcia.

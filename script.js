@@ -1,8 +1,9 @@
-let x = document.getElementById('invention1');
-function ShowAndHide() {
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
+function showAndHide(inv) {
+    var innerStyle = document.getElementById(inv);
+    console.log(innerStyle);
+    if (innerStyle.style.display === 'none') {
+        innerStyle.style.display = 'block';
     } else {
-        x.style.display = 'none';
+        innerStyle.style.display = 'none';
     }
 }
